@@ -1,0 +1,44 @@
+.header-wrapper {
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  width: 100%;
+  background: #2d2727;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+.inner-container {
+  max-width: 1440px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header-contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 4px;
+}
+
+.location-icon {
+  height: 14px;
+  margin-left: 5px;
+}
+
+.header-text-location {
+  font-family: Lato;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 16px;
+  /* margin-left: 5px; */
+}
