@@ -40,5 +40,21 @@
   text-align: left;
   color: #ffffff;
   margin-top: 16px;
-  /* margin-left: 5px; */
+}
+
+.header-icon-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 6px;
+}
+
+@media (max-width: 769px) {
+  .header-text-location {
+    font-size: 9px;
+  }
+  .location-icon {
+    height: 12px;
+  }
 }
